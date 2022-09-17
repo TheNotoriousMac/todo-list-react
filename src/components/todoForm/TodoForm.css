@@ -140,3 +140,33 @@
     width: 20px;
     color: #095bfe;
 }
+
+/* Edit form */
+#todo-edit-form{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 5px 0;
+  height: 30px;
+  width: 100%;
+}
+
+#todo-edit-input{
+  font-size: 13px;
+  display: block;
+  width: 265px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #757575;
+  padding: 5px 0;
+}
+
+#todo-edit-input:focus {
+  outline: none;
+}
+
+#todo-edit-input:focus~.bar::before,
+#todo-edit-input:focus~.bar::after {
+  width: 50%;
+}

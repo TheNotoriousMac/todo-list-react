@@ -4,4 +4,12 @@
     width: 85%;
     height: 300px;
     overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.errMessage{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #095bfe;
 }
